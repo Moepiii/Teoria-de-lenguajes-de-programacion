@@ -8,3 +8,11 @@ segun se quieran usar y dar enter, el programa se ejecutara sin problemas.
 3 El main es el programa solicitado mientras que test_sistema es la cobertura
 que se solicita en el ejercicio. sistema.rb es un requerimiento necesario para
 que el main sirva.
+
+ejemplo de uso:
+Bienvenido al simulador de programas/intérpretes/traductores.
+> DEFINIR PROGRAMA MiProg PYTHON
+> DEFINIR INTERPRETE LOCAL PYTHON
+> DEFINIR TRADUCTOR LOCAL PYTHON LOCAL
+> EJECUTABLE MiProg
+> SALIR
