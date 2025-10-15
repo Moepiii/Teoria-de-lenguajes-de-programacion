@@ -8,3 +8,22 @@ segun se quieran usar y dar enter, el programa se ejecutara sin problemas.
 3 El main es el programa solicitado mientras que test_buddy_system es la cobertura
 que se solicita en el ejercicio. buddy_system.rb es un requerimiento necesario para
 que el main sirva.
+
+Ejemplo de uso practico al arrancar
+Ingrese el tamaño total de la memoria (potencia de 2):
+4096
+Acción: RESERVAR <cant> <nombre> | LIBERAR <nombre> | MOSTRAR | SALIR
+> RESERVAR 500 ProcesoA
+Acción: RESERVAR <cant> <nombre> | LIBERAR <nombre> | MOSTRAR | SALIR
+> RESERVAR 1000 ProcesoB
+Acción: RESERVAR <cant> <nombre> | LIBERAR <nombre> | MOSTRAR | SALIR
+> MOSTRAR
+(Se muestra el estado de la memoria con 512 para ProcesoA y 1024 para ProcesoB)
+Acción: RESERVAR <cant> <nombre> | LIBERAR <nombre> | MOSTRAR | SALIR
+> LIBERAR ProcesoA
+Acción: RESERVAR <cant> <nombre> | LIBERAR <nombre> | MOSTRAR | SALIR
+> MOSTRAR
+(Se muestra el nuevo estado, probablemente con más bloques libres y posiblemente fusionados)
+Acción: RESERVAR <cant> <nombre> | LIBERAR <nombre> | MOSTRAR | SALIR
+> SALIR
+Finalizando simulación...
