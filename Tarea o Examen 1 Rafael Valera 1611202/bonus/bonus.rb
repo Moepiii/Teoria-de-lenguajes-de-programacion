@@ -1,0 +1,1 @@
+f=->n{n<2?n:f[n-1]+f[n-2]};n=gets.to_i;p f[Math.log2(n*n*(n*n-1)/12.0).floor+1]

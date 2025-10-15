@@ -1,0 +1,13 @@
+Como usar el programas Bonus
+
+1 Tener instalado Ruby en su ordenador.
+
+2 En terminal en la ruta de la termina poner "bonus.rb" y dar enter, el programa
+ se ejecutara sin problemas.
+
+3 Una vez ejecutado luego de dar enter introduzca un numero como el 5 el mismo le arrojara como resultado el 8 que seria el resultado
+segun la formula.
+
+explicaciones adicionales
+es un codigo que intenta exprimir al maximo el ruby con todas las funciones que el mismo ofrece definiendo funciones de forma corta
+y sacando los calculos con maquetes y demas complementos que el programa ofrece.

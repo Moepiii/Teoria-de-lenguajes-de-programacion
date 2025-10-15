@@ -1,0 +1,10 @@
+Como usar los programas de la pregunta 4
+
+1 Tener instalado Ruby en su ordenador y el complemento "gem install simplecov" .
+
+2 En terminal en la ruta de la termina poner "ruby main.rb"  o "ruby test_vector3d.rb"
+segun se quieran usar y dar enter, el programa se ejecutara sin problemas.
+
+3 El main es el programa solicitado mientras que test_vector3d es la cobertura
+que se solicita en el ejercicio. vector3d.rb es un requerimiento necesario para
+que el main sirva.
