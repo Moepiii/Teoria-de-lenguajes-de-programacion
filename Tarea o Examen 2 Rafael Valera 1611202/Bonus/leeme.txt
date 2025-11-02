@@ -1,0 +1,5 @@
+Rafael Valera 16-11202
+
+Bienvenido este es el unico programa que recomiendo probar online con el link dado en el documento
+aunque en principio si lo quiere usar en su computador debe funcionar con Python 3,C y C++
+este programa fue probado en linea con https://ideone.com/

@@ -1,0 +1,7 @@
+Rafael Valera 16-11202
+
+Bienvenido para poder usar el programa conocido como implementa.py es necesario que:
+
+Necesita python, luego abra la termina en la ruta donde tenga el programa
+y escriba  [python implementa.py] luego de enter, le debe salir un mensaje con 
+la lista original y otra ordenada

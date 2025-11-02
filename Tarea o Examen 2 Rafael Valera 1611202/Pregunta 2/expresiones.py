@@ -1,6 +1,6 @@
 import sys
 
-# Para facilita esto lo voy hacer con un AST 
+# Para facilitarme esto lo voy hacer con un AST 
 class NumberNode:
 
     def __init__(self, value):

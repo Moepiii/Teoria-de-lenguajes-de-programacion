@@ -1,0 +1,13 @@
+Rafael Valera 16-11202
+
+Bienvenido para poder usar los programa conocido como a.py,b.py,c.py y comparacion.py es necesario que:
+
+Necesita python, luego abra la termina en la ruta donde tenga los programas
+en el caso de los a.py,b.py,c.py simplemente coloque por terminal  [python a.py] o el que desee
+y se ejecutara los mismos estan diseñádos de tal forma que le daran un resultado que puede cambiar a gusto
+dentro del propio programa
+
+ahora para poder usar comparacion.py usted debera instalar antes por medio de este comando:
+[pip install matplotlib] esta biblioteca le genera la grafica que vera en el documento
+tiene una serie de pruebas con las que se hizo la comparacion y puedes cambiar si asi quiere el usuario
+luego de instalarlo simplemente use [python comparacion.py] y luego de unos segundos le arroja la grafia

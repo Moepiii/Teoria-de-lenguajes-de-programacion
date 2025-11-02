@@ -1,0 +1,28 @@
+Rafael Valera 16-11202
+
+Bienvenido para poder usar los programas conocido como expresiones.py y test_expresiones.py es necesario que:
+
+Necesita python, luego en el caso de expresiones.py abra la teminar en la ruta donde este y ejecute le saldra
+Programa de Expresiones Aritméticas (PRE/POST)
+Comandos: EVAL, MOSTRAR, SALIR
+y apartir de aqui puede usarlo con los ejemplos proporcionados como:
+EVAL PRE + * + 3 4 5 7   que deberá imprimir 42. 
+MOSTRAR PRE + * + 3 4 5 7 que deberá imprimir (3 + 4) * 5 + 7.
+Salir que termina el programa
+
+en el caso de test_expresiones.py antes de ejecutarlo debe abrir la terminal donde este el programa he instalar
+con [pip install  coverage] para poder usar las coverturas
+
+luego ejecute: [coverage run -m unittest test_expresiones.py] esto arroja muchos datos de distintas cosas pero
+no preocuparse
+
+luego ejecute: [coverage report -m] esto le arrojara un resultado que se vera asi 
+Name                  Stmts   Miss  Cover   Missing
+---------------------------------------------------
+expresiones.py          116     18    84%   29, 183-202, 205
+test_expresiones.py      74      1    99%   121
+---------------------------------------------------
+TOTAL                   190     19    90%
+
+esto son los datos de la evaluacion ejecutada con la linea anterior ingrasada por terminal
+si se usan mal los comando o en orden distinto dara error muy probablemente.

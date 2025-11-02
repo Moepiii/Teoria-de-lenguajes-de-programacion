@@ -1,0 +1,7 @@
+Rafael Valera 16-11202
+
+Bienvenido para poder usar el programa conocido como count.py es necesario que:
+
+Necesita python, luego abra la termina en la ruta donde tenga el programa
+y escriba  [python count.py] luego de enter, le debe salir un mensaje pidiendo
+un numero con ciertas restricciones para hacer pruebas
