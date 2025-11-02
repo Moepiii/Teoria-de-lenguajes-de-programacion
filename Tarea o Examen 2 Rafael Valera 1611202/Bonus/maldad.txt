@@ -1,0 +1,89 @@
+#if 0
+"""
+#endif
+
+#if !NETCORE_APP
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int n;
+    if (scanf("%d", &n) != 1) return 0;
+
+    int k = 0;
+    if (n > 1) {
+        k = (int)floor(log2((double)n));
+    }
+
+    if (k == 1) {
+        printf("1\n");
+    } else {
+        printf("2\n");
+    }
+
+    return 0;
+}
+#endif
+
+#if NETCORE_APP
+using System;
+using static System.Math;
+
+public class Program
+{
+    public static void Main()
+    {
+        string n_str = Console.ReadLine();
+        if (string.IsNullOrEmpty(n_str)) return;
+
+        int n = int.Parse(n_str);
+        int k = 0;
+        if (n > 1)
+        {
+            k = (int)Floor(Log2(n));
+        }
+
+        if (k == 1)
+        {
+            Console.WriteLine(1);
+        }
+        else
+        {
+            Console.WriteLine(2);
+        }
+    }
+}
+#endif
+
+#if 0
+"""
+#endif
+
+#if 0
+import math
+import sys
+
+try:
+    try:
+        n_str = raw_input()
+    except NameError:
+        n_str = input()
+
+    if not n_str:
+        sys.exit(0)
+
+    n = int(n_str)
+    k = 0
+    if (n > 1):
+        k = int(math.log2(n))
+
+    if k == 1:
+        print(1)
+    else:
+        print(2)
+
+except EOFError:
+    pass
+except:
+    pass
+#endif
