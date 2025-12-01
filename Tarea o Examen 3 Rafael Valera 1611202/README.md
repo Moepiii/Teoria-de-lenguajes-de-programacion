@@ -42,7 +42,7 @@ El proyecto consta de tres archivos principales:
       * Incluye casos de prueba para: Alineación simple, structs anidados, comportamiento de uniones, algoritmo de reordenamiento óptimo y manejo de errores.
       * **Reporte:** Al finalizar, genera un cuadro visual con el porcentaje de éxito (Cobertura funcional).
 
-## 🚀 Cómo Ejecutar el Programa
+## Cómo Ejecutar el Programa
 
 Debe tener Python 3 instalado. Abre la  terminal en la carpeta del proyecto.
 
@@ -97,7 +97,7 @@ PORCENTAJE DE ÉXITO: 100.00%
 
 -----
 
-## 📚 Comandos Disponibles
+## Comandos Disponibles
 
 Una vez dentro de `main.py`, puedes usar los siguientes comandos:
 
@@ -126,7 +126,7 @@ Una vez dentro de `main.py`, puedes usar los siguientes comandos:
 
 -----
 
-## 📋 Detalles de las Estrategias
+## Detalles de las Estrategias
 
   * **Sin empaquetar (Naive):** Simula un compilador de C estándar. Inserta bytes de relleno (padding) entre campos para respetar la alineación de cada tipo, y al final de la estructura para respetar la alineación total.
   * **Empaquetado (Packed):** Simula la directiva `__attribute__((packed))` de GCC. Fuerza la alineación a 1 byte, eliminando todo el desperdicio, pero con penalización de rendimiento en hardware real.

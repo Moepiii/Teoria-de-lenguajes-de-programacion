@@ -1,4 +1,4 @@
-# Rafael Antonio Valera Pacheco 16-11202
+# Rafael Antonio Valera Pacheco  carnet:16-11202
 import math
 
 class DataType:
